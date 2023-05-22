@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <title>BORNIAN SIGNUP</title>
+</head>
+
+<body>
+    <main>
+        <div class="Container">
+            <div class="Left">
+                <div class="container left-contain" id="">
+                    <img src="./IMAGES/sign-in-large.png" alt="" class="img-fluid">
+                    <h2>Bornian Pharmaceuticals</h2>
+                </div>
+                <div class="container Body" id="">
+                    <h5 class="text-center fs-6 lh-base">
+                        Bornian Pharmaceuticals revolutionizes operations, elevates <br>
+                        customer care, and empowers clients through an advanced system, <br>
+                        streamlining registration, appointment booking, meticulous diagnoses, <br>
+                        and tailored prescription procurement, ultimately alleviating burdens <br>
+                        for all stakeholders involved.
+                    </h5>
+                    <img src="./IMAGES/manager.jpeg" class="img-fluid" alt="">
+                    <p class="">Grace Taylor</p>
+                    <p class="">Director Of Bornian Pharmaceuticals</p>
+                </div>
+                <p id="signUpDate"></p>
+            </div>
+            <div class="Right">
+                <div class="container">
+                    <img src="./IMAGES/large-signup.png" alt="" class="img-fluid">
+                    <h2 class="">Sign Up</h2>
+                    <input type="text" id="signUpUserFullName" value="" placeholder="Enter Your Name">
+                    <p id="signUpUserFullNameError" class="center"></p><br>
+                    <input type="email" id="signUpUserEmail" value="" placeholder="Enter Your Email">
+                    <p id="signUpUserEmailError" class="center"></p> <br>
+                    <input type="password" id="signUpUserPassword" value="" placeholder="Enter Your Password">
+                    <p id="signUpUserPasswordError" class="center"></p> <br>
+                    <button id="signUpSubmit" onclick="signUpSubmit()">Sign Up</button>
+                    <p class="account">Have an account already? <a href="signIn.html" class="">Login</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+</html>

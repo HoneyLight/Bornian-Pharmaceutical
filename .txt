@@ -1,0 +1,26 @@
+1--- I just updated the bookbtn button function with the
+ submit onlcick function put it outside the form so that I won't have to do a preventDefault 
+function becuase at some point it stopped working so I had to change that.
+
+2--- I updated the bornianDoctors object with specialization of the given 
+     doctors just so the patient can print out the invoice and know the specialty
+     the doctor has.
+
+3--- I changed the if else statement to a switch statement and made the default condition be an 
+     alert, that notifies the user of not filling the inputs, if the other cases are met 
+     of coourse we can proceed with the program.
+   
+4--- On any specialization the patient selects there is a doctor that stands to defend it.
+
+
+
+    THINGS THAT ARE REMAINING... 
+
+1. If a user selects the date and time and another user has selected that same kind of time and day
+   there should be an alert that pops up and says that the doctor has been booked, wherever the patient is 
+   that doctor should throw that alert.
+  
+2. The date and time should work alongside this. 
+
+
+--- 🙌 🙌 🙌 🙌 🙌 🙌 🙌 🙌 🙌 🙌 🙌 🙌 🙌 🙌 I surrender 🤲 😔🚶🏽
