@@ -533,7 +533,9 @@ function bookAppointment() {
 function submit(){
     bookAppointment();
     alert("You Have Successfully Booked An Appointment");
-    window.location.href = "gate.html";
+    setTimeout( function (){
+        window.location.href = "gate.html";
+    }, 3500);
 }
 
 // let select = document.getElementById("select");

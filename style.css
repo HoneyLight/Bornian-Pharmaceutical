@@ -226,11 +226,13 @@
     overflow: hidden;
     display: inline-block;
 }
-
+/* .Gate-Left p{
+    word-wrap: break-word;
+} */
 .Gate-First_Section .Gate-Left p:nth-of-type(1) {
     position: absolute;
     padding-top: 250px;
-    padding-left: 40px;
+    /* padding-left: 40px; */
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
 }
