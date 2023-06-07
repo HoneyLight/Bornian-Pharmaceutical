@@ -106,7 +106,7 @@ function signInButton() {
                 setTimeout(function () {
                     loginemailInput.value == "";
                     loginpasswordInput.value == "";
-                    window.location.href = "./gate.html";
+                    window.location.href = "./index.html";
                 }, 500);
             } else {
                 // If The Password Did Not Match Or Was Not Found Or Was Invalid
@@ -128,7 +128,7 @@ function signInButton() {
 
 
 
-// Gate Page Js
+// index Page Js
 function physicianFunction() {
     window.location.href = "appointment.html";
 }
@@ -534,7 +534,7 @@ function submit(){
     bookAppointment();
     alert("You Have Successfully Booked An Appointment");
     setTimeout( function (){
-        window.location.href = "gate.html";
+        window.location.href = "index.html";
     }, 5000);
 }
 
